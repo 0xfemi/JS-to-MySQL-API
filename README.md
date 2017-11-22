@@ -1,7 +1,18 @@
 # Novett API Usage
 
 
-Novett is an API for connecting to MySQL directly from Javascript Applications.
+Novett is an API for connecting to MySQL Database directly from Javascript Applications. 
+
+## Features
+ * connects with all MySQL servers.
+ * Simple, chainable, unambiguous API.
+ * Parsing and formatting for common and custom formats.
+ * Supports all MySQL query syntaxes.
+
+## Download/install
+
+[Download/install instructions](https://github.com/omoniyi289/JS-to-MySQL-API/archive/master.zip)
+
 
 API required parameters
 
@@ -36,22 +47,13 @@ $.getJSON("http://novett.herokuapp.com/getQuery?"+$getData, function(response){
         console.log(response);
 });
 ```
-## Features
- * connects with all MySQL servers.
- * Simple, chainable, unambiguous API.
- * Parsing and formatting for common and custom formats.
- * Supports all MySQL query syntaxes.
-
-## Download/install
-
-[Download/install instructions](https://github.com/omoniyi289/JS-to-MySQL-API/archive/master.zip)
 
 ## Resources and Documentation
 
 * [General documentation](https://github.com/omoniyi289/JS-to-MySQL-API/wiki)
 * [API Host on](http://novett.herokuapp.com)
 * [AngularJS Library](https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js)
-* [JQuery Library](https://moment.github.io/luxon/docs/manual/faq/moment.html)
+* [JQuery Library](https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js)
 * [Demo Download](https://github.com/omoniyi289/JS-to-MySQL-API/archive/master.zip)
 
 
